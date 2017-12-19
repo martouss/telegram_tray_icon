@@ -1,23 +1,26 @@
-# telegram tray icon
-Simple script for generating custom telegram tray icon
+# Custom System Tray Icon Themes For Telegram Desktop.
+A simple script to generate new custom system tray icon themes for Telegram.
 
-Clone this repository.
+##### Now available icon themes:
+- Breeze
+- Breeze Dark
+- Lime
+- Maia
+- Lubuntu
 
-go to you Telegram folder .
+## How to Use:
 
+Clone this repository:
 ```
-~/.TelegramDesktop/tdata/ticons
+$ git clone https://github.com/alireza-amirsamimi/telegram_tray_icon
+````
 
+Copy and replace ```*.png``` files from an icon theme subdirectory to:
 
-or 
+| Version type | Path |
+| ------ | ------ |
+| Older Versions | ```~/.TelegramDesktop/tdata/ticons``` |
+| Newer Versions | ``` ~/.local/share/TelegramDesktop/tdata/ticons ``` |
 
-
-~/.local/share/TelegramDesktop/tdata/ticons
-
-or
-
-...
-```
-
-
-Copy content of Breez or Breez dark folder from cloned repository to your Telegram folder .
+#### NOTE:
+The path of directory may differ, according to your ditribution type.
